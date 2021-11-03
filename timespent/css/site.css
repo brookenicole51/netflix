@@ -32,6 +32,7 @@ font-family: Helvetica, Arial, sans-serif;
 font-size: 60px;
 }
 input{
-  color: Red;
+  background-color: Red;
   font-size: 40px;
+  border: none;
 }
