@@ -7,6 +7,10 @@
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src='https://cdn.plot.ly/plotly-2.4.2.min.js'></script>
+	<script type="module">
+	import * as d3 from "https://cdn.skypack.dev/d3@7";
+	const div = d3.selectAll("div");
+	</script>
 	<script src="js/site.js" defer></script>
 </head>
 <body>
@@ -18,13 +22,11 @@
   <li><a href=timespent\index.html>Time Spent</a></li>
 </ul>
 <h1>Time Spent Watching Netflix by Age (Hours)</h1>
-<div id='time'></div>
+	<div id='time'></div>
+
 <h1>The Average Amount of Hours a Netflix Subscriber Streams a Day</h1>
-
-
-
 <input type="button" name="answer" value="How Long?" onclick="showDiv()" />
-<div id="hours"  style="display:none;" class="hrs" > 2 Hours!</div>
+	<div id="hours"  style="display:none;" class="hrs" > 2 Hours!</div>
 
 </body>
 </html>

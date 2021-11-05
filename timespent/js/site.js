@@ -10,4 +10,4 @@ Plotly.newPlot('time', data);
 
 function showDiv() {
    document.getElementById('hours').style.display = "block";
-}
+};
