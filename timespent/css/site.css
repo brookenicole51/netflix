@@ -12,3 +12,11 @@ input{
   font-size: 40px;
   border: none;
 }
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#container {
+  min-width: 320px;
+  max-width: 800px;
+  margin: 0 auto;
+}
