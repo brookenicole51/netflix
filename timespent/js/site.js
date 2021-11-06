@@ -1,3 +1,6 @@
+//@Brooke Haven, Matthew Lencioni, Carlos Salazar, MAtthew Habrial
+//November 10th 2021
+
 //Bar Chart
 var data = [
   {
@@ -12,6 +15,16 @@ Plotly.newPlot('time', data);
 //button reveal
 function showDiv() {
    document.getElementById('hours').style.display = "block";
+};
+function showDivh() {
+   document.getElementById('hours').style.display = "none";
+};
+
+function showDiv2() {
+   document.getElementById('covid').style.display = "block";
+};
+function showDiv2h() {
+   document.getElementById('covid').style.display = "none";
 };
 
 //bubble chart
