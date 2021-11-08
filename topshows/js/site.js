@@ -16,7 +16,8 @@ var options = {
   colorSet: "greenShades",
 	animationEnabled: true,
 	title: {
-		text: "Top Ten Netflix TV Shows"
+		text: "Top Ten Netflix TV Shows",
+    fontFamily: 'Bebas Neue', cursive,
 	},
 	data: [{
 		type: "doughnut",
@@ -39,5 +40,4 @@ var options = {
 	}]
 };
 $("#chartContainer").CanvasJSChart(options);
-
 }
