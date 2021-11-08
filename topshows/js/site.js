@@ -17,7 +17,6 @@ var options = {
 	animationEnabled: true,
 	title: {
 		text: "Top Ten Netflix TV Shows",
-    fontFamily: 'Bebas Neue', cursive,
 	},
 	data: [{
 		type: "doughnut",
