@@ -3,11 +3,12 @@
 <html lang="en">
 <head>
 	<title>Netflix Stats</title>
+	<link rel="stylesheet" type="text/css" href="css/site.css">
 	<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/site.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	 <script src='https://cdn.plot.ly/plotly-2.4.2.min.js'></script>
 	 <script src="https://code.highcharts.com/highcharts.js"></script>
@@ -28,23 +29,39 @@
     </ul>
   </div>
 </nav>
+<div class="col" style="background-color:Coral;">
 <h1>Time Spent Watching Netflix by Age (Hours)</h1>
-	<div id='time'></div>
 
+	<div id='time'></div>
+</div>
+<div class="col" style="background-color:Coral;">
 <h1>The Average Amount of Hours a Netflix Subscriber Streams a Day</h1>
 <input type="button" name="answer" value="How Long?" onclick="showDiv()" />
 	<div id="hours"  style="display:none;" class="hrs" > 2 Hours!</div>
 	<input type="button" name="hide" value="Hide" onclick="showDivh()" />
 		<div id="hours"  style="display:none;" class="hrs" > 2 Hours!</div>
-
+</div>
 	<div id="container"></div>
-	<h1>34% of people using streaming services in the US are using Netflix!</h1>
-	<h1>How many hours of Netflix were streaming during coronavirus lockdown?</h1>
+		<div class="col" style="background-color:Coral;">
+			<h1>34% of people using streaming services in the US are using Netflix!</h1>
+		</div>
+
+			<div class="col" style="background-color:CadetBlue;">
+	<h1>How many hours of Netflix were streamed during coronavirus lockdown?</h1>
 	<input type="button" name="answer" value="How Many?" onclick="showDiv2()" />
-		<div id="covid"  style="display:none;" class="hrs c" >In the US, an estimated 204 million hours were
-			collectively streamed during the first major coronavirus lockdown in 2020 </div>
+		<div id="covid"  style="display:none;" class="hrs c" >204 million hours! </div>
 			<input type="button" name="hide" value="Hide" onclick="showDiv2h()" />
-				<div id="hours"  style="display:none;" class="hrs c" > In the US, an estimated 204 million hours were
-					collectively streamed during the first major coronavirus lockdown in 2020</div>
+				<div id="hours"  style="display:none;" class="hrs c" >204 million hours!</div>
+				</div>
+
+				<div class="container">
+						<div class="col">
+					<div class="col" style="background-color:CadetBlue;"><h1>"Netflix says that customers have spent over
+						two billion hours watching Sandler's films on the streamer since The Ridiculous 6 premiered in 2015."</h1></div>
+					<img src = timespent\img\Rid6.jpg>
+					</div></div>
+
+
+			</div></div>
 </body>
 </html>
