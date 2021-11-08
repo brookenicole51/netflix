@@ -1,7 +1,7 @@
 //@Brooke Haven, Matthew Lencioni, Carlos Salazar, MAtthew Habrial
 //November 10th 2021
 
-//Bar Chart
+//Bar Chart hrs and age
 var data = [
   {
     x: ['18+', '18-34', '35-49', '50-64', '65+', 'Average Total'],
@@ -9,20 +9,22 @@ var data = [
     type: 'bar'
   }
 ];
-
+//output
 Plotly.newPlot('time', data);
 
-//button reveal
+//Button reveal
 function showDiv() {
    document.getElementById('hours').style.display = "block";
 };
+//Button Hide
 function showDivh() {
    document.getElementById('hours').style.display = "none";
 };
-
+//Button reveal 2
 function showDiv2() {
    document.getElementById('covid').style.display = "block";
 };
+//Button hide 2
 function showDiv2h() {
    document.getElementById('covid').style.display = "none";
 };
@@ -71,6 +73,7 @@ Highcharts.chart('container', {
       }
     }
   },
+  //Title Text
   title: {
     text: '% Share of Streaming Minutes in the US'
   },
@@ -97,6 +100,7 @@ Highcharts.chart('container', {
       }
     }
   },
+  //Data input for bubbles
   series: [{
     name: 'Disney Plus',
     data: [{
