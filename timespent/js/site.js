@@ -75,7 +75,7 @@ Highcharts.chart('container', {
   },
   //Title Text
   title: {
-    text: '% Share of Streaming Minutes in the US'
+    text: ''
   },
   tooltip: {
     useHTML: true,
