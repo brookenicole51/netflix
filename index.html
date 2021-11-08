@@ -12,20 +12,73 @@
 	<script src="js/site.js" defer></script>
 </head>
 <body>
-	<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="https://www.netflix.com/"><img src = img\Netflix-Logo-2006.png> </a>
-    </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="index.html">Home</a></li>
-      <li><a href="https://brookenicole51.github.io/netflix/topmovies/index.html">Top Movies</a></li>
-      <li><a href="https://brookenicole51.github.io/netflix/topshows/index.html">Top Shows</a></li>
-      <li><a href="https://brookenicole51.github.io/netflix/timespent/index.html">Time Spent</a></li>
-    </ul>
-  </div>
-</nav>
-<h1>Home Page</h1>
+	<main class="container-fluid">
 
+		<nav class="navbar navbar-inverse">
+		  <div class="container-fluid">
+		    <div class="navbar-header">
+		      <a class="navbar-brand" href="https://www.netflix.com/"><img id="logo" src="img\Netflix-Logo-2006.png"> </a>
+		    </div>
+		    <ul class="nav navbar-nav">
+		      <li class="active"><a href="index.html">Home</a></li>
+		      <li><a href="https://brookenicole51.github.io/netflix/topmovies/index.html">Top Movies</a></li>
+		      <li><a href="https://brookenicole51.github.io/netflix/topshows/index.html">Top Shows</a></li>
+		      <li><a href="https://brookenicole51.github.io/netflix/timespent/index.html">Time Spent</a></li>
+		    </ul>
+		  </div>
+		</nav>
+
+		<div class="row" id="topmovies">
+			<h2>Top Movies</h2>
+
+			<div class="container">
+			  <button type="button" id="moveLeft" class="btn-nav">
+			    ᐊ
+			  </button>
+			  <div class="container-indicators" view="hidden">
+			    <div class="indicator active" data-index=0></div>
+			    <div class="indicator" data-index=1></div>
+			    <div class="indicator" data-index=2></div>
+			  </div>
+			  <div class="slider" id="mySlider">
+			    <div class="movie" id="movie0">
+			      <img src="img/Netflix-Logo-2006.png" alt="" srcset="" />
+			      <div class="description">
+			        <div class="description__buttons-container">
+			          <div class="description__button"><i class="fas fa-play"></i></div>
+			          <div class="description__button"><i class="fas fa-plus"></i></div>
+			          <div class="description__button"><i class="fas fa-thumbs-up"></i></div>
+			          <div class="description__button"><i class="fas fa-thumbs-down"></i></div>
+			          <div class="description__button"><i class="fas fa-chevron-down"></i></div>
+			        </div>
+			        <div class="description__text-container">
+			          <span class="description__match">97% Match</span>
+			          <span class="description__rating">TV-14</span>
+			          <span class="description__length">2h 11m</span>
+			          <br><br>
+			          <span>Explosive</span>
+			          <span>&middot;</span>
+			          <span>Exciting</span>
+			          <span>&middot;</span>
+			          <span>Family</span>
+			        </div>
+			      </div>
+			    </div>
+			  </div>
+			  <button type="button" id="moveRight" class="btn-nav">
+			    ᐅ
+			  </button>
+			</div>
+		</div>
+		<div class="row" id="topshows">
+			<h2>Top Shows</h2>
+			
+		</div>
+
+		<div class="row" id="timespent">
+			<h2>Time Spent</h2>
+		</div>
+
+	</main>
 </body>
 </html>
