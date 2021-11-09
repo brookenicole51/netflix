@@ -15,7 +15,8 @@
 	 <script src="https://code.highcharts.com/highcharts-more.js"></script>
 	<script src="js/site.js" defer></script>
 </head>
-<body>
+<body style="background-color:Crimson;">
+
 	<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -29,42 +30,48 @@
     </ul>
   </div>
 </nav>
-<div class="text-center" style="background-color:Coral;">
-<h1>Time Spent Watching Netflix by Age (Hours)</h1>
 
+//Chart1
+<div class="text-center" style="background-color:#141414;">
+<h1 style="color:AliceBlue;">Time Spent Watching Netflix by Age (Hours)</h1>
 	<div id='time'></div>
-</div>
-<div class="col" style="background-color:CadetBlue;">
-<h1>How long does the average Netflix user stream a day?</h1>
-<input type="button" name="answer" value="How Long?" onclick="showDiv()" />
-	<div id="hours"  style="display:none;" class="hrs" > 2 Hours!</div>
-	<input type="button" name="hide" value="Hide" onclick="showDivh()" />
-		<div id="hours"  style="display:none;" class="hrs" > 2 Hours!</div>
-</div>
-	<div class="text-center"><h1>% Share of Streaming Minutes in the US</h1></div>
-	<div id="container"></div>
-		 <div class="text-center" style="background-color:Coral;">
-			<h1>34% of people using streaming services in the US are using Netflix!</h1>
 		</div>
 
-			<div class="col" style="background-color:CadetBlue;">
-	<h1>How many hours of Netflix were streamed during coronavirus lockdown?</h1>
-	<input type="button" name="answer" value="How Many?" onclick="showDiv2()" />
-		<div id="covid"  style="display:none;" class="hrs c" >204 million hours! </div>
-			<input type="button" name="hide" value="Hide" onclick="showDiv2h()" />
-				<div id="hours"  style="display:none;" class="hrs c" >204 million hours!</div>
+//Button1
+<div class="col" style="background-color:#141414;">
+<h1 style="color:AliceBlue;">How long does the average Netflix user stream a day?</h1>
+<input type="button" name="answer" value="How Long?" onclick="showDiv()" />
+	<div id="hours"  style="display:none;" class="hrs" ><h1 style="color:AliceBlue;"> 2 Hours!</h1></div>
+	<input type="button" name="hide" value="Hide" onclick="showDivh()" />
+		<div id="hours"  style="display:none;" class="hrs" ><h1 style="color:AliceBlue;"> 2 Hours!</h1></div>
+</div>
+
+//Chart2 Bubbles
+	<div class="text-center"><h1>% Share of Streaming Minutes in the US</h1></div>
+	<div id="container"></div>
+		 <div class="text-center" style="background-color:#141414;">
+			<h1 style="color:AliceBlue;">34% of people using streaming services in the US are using Netflix!</h1>
 				</div>
 
-				<div class="container-fluid" style="background-color:Moccasin;">
+//Button2
+			<div class="col" style="background-color:#141414;">
+	<h1 style="color:AliceBlue;">How many hours of Netflix were streamed during coronavirus lockdown?</h1>
+	<input type="button" name="answer" value="How Many?" onclick="showDiv2()" />
+		<div id="covid" style="display:none;" class="hrs c" ><h1 style="color:AliceBlue;">204 million hours!</h1> </div>
+			<input type="button" name="hide" value="Hide" onclick="showDiv2h()" />
+				<div id="hours"  style="display:none;" class="hrs c" ><h1 style="color:AliceBlue;">204 million hours!</h1></div>
+				</div>
+
+//AdamSandler
+				<div class="container-fluid" style="background-color:#141414;">
 						<div class="col">
-				 <div class="text-center" style="background-color:Moccasin;"><h1>"Netflix says that customers have spent over
+				 <div class="text-center" style="background-color:#141414;"><h1 style="color:AliceBlue;">"Netflix says that customers have spent over
 						two billion hours watching Sandler's films on the streamer since The Ridiculous 6 premiered in 2015."</h1></div>
-	 <div class="text-center" style="background-color:Moccasin;">
+	 <div class="text-center" style="background-color:#141414;">
 					<img class="rid" src = img\Rid6.jpg>
 					</div></div></div>
 
-	</div></div>
-
+								</div></div>
 
 </body>
 </html>

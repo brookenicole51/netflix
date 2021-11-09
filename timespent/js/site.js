@@ -12,6 +12,8 @@ var data = [
 //output
 Plotly.newPlot('time', data);
 
+
+
 //Button reveal
 function showDiv() {
    document.getElementById('hours').style.display = "block";
@@ -28,6 +30,9 @@ function showDiv2() {
 function showDiv2h() {
    document.getElementById('covid').style.display = "none";
 };
+
+
+
 
 //bubble chart
 Highcharts.chart('container', {
