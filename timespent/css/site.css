@@ -23,3 +23,8 @@ body {
 .rid {
   width: 400px;
 }
+
+
+.navbar {
+    margin-bottom: 0 !important;
+}
