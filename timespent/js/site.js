@@ -144,3 +144,13 @@ Highcharts.chart('container', {
     }, ]
   }]
 });
+
+
+$(document).ready(function(){
+    $('#rid').hover(function() {
+        $("#rid").addClass('transition');
+
+    }, function() {
+        $("#rid").removeClass('transition');
+    });
+});
