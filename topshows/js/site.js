@@ -1,26 +1,32 @@
-window.onload = function () {
-  CanvasJS.addColorSet("greenShades",
-                [//colorSet Array
-                "#828282",
-                "#8a8a8a",
-                "#949494",
-                "#9c9c9c",
-                "#a3a3a3",
-                "#adadad",
-                "#b5b5b5",
-                "#bdbdbd",
-                "#dcdcdc",
-              ]);
+
+CanvasJS.addColorSet(
+  "brookeSet",
+  [
+    //colorSet Array
+    "#1E1E1E",
+    "#F04D4D",
+    "#313131",
+    "#D3423D",
+    "#393D42",
+    "#B23028",
+    "#364651",
+    "#99180D",
+    "#42565E",
+    "#65130F",
+  ]
+);
 
 var options = {
-  colorSet: "greenShades",
+  colorSet: "brookeSet",
 	animationEnabled: true,
+  backgroundColor: "#141414",
 	title: {
 		text: "Top Ten Netflix TV Shows",
+      fontColor: "#dc143c",
 	},
 	data: [{
 		type: "doughnut",
-		innerRadius: "50%",
+		innerRadius: "40%",
 		showInLegend: true,
 		legendText: "{label}",
 		indexLabel: "{label}: #percent%",
@@ -38,5 +44,5 @@ var options = {
 		]
 	}]
 };
+
 $("#chartContainer").CanvasJSChart(options);
-}
