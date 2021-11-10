@@ -194,7 +194,7 @@ ul.nav.navbar-nav{
 }
 
 button#moveRight.btn-nav{
-  top: 612px;
+  top: 0px;
 }
 
 #moveLeft {
@@ -236,6 +236,10 @@ h1.tshow{
   top:5% !important;
   z-index: 1;
   text-shadow: 1px 1px 10px red;
+}
+
+div#carousel{
+  position: relative;
 }
 
 img#show{
