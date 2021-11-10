@@ -221,5 +221,5 @@ h1#h{
 }
 
 img#show{
-  width: 100%;
+  width: 100% !important;
 }
