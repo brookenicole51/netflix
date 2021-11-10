@@ -31,7 +31,7 @@ let movies = [
     src: "img/murder_mystery.jpg"
   },
   // ...
-];
+]; h
 // Fill the slider with all the movies in the "movies" array
 function populateSlider() {
   movies.forEach((image) => {
