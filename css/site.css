@@ -1,9 +1,18 @@
+
 /* NOTE: Sizing & Positioning NAV logo */
 #logo {
   width: 50px;
 }
 a.navbar-brand{
 padding: 8.335px
+}
+
+ul.nav.navbar-nav{
+  flex-direction: row;
+}
+
+div.container-fluid{
+  justify-content: flex-start;
 }
 
 /* NOTE: Carousel CSS: https://www.cssscript.com/netflix-infinite-carousel/ */
@@ -164,14 +173,18 @@ padding: 8.335px
   height: var(--movie-height);
   border-radius: 5px;
   position: absolute;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.3);
+  /*bottom: 0;*/
+  background-color: rgba(0, 0, 0, 0.7);
   outline: none;
   border: none;
   color: white;
   top: var(--slider-py);
   z-index: 5;
-  visibility: hidden;
+  visibility: visible;
+}
+
+button#moveRight.btn-nav{
+  top: 125px;
 }
 
 #moveLeft {
@@ -189,4 +202,18 @@ padding: 8.335px
 
 div#mySlider.slider{
   padding-bottom: 200px;
+}
+
+img {
+  width: 50px;
+  margin-bottom: 15px;
+
+}
+
+/* NOTE: Styling background */
+body#home {
+  background-color: #333 !important;
+}
+h1#h{
+  color: white;
 }
