@@ -13,13 +13,22 @@ let baseSliderWidth = slider.offsetWidth;
 let activeIndex = 0; // the current page on the slider
 let movies = [
   {
-    src: "img/Netflix-Logo-2006.png",
+    src: "img/6-underground.jpeg",
   },
   {
-    src: "img/Netflix-Logo-2006.png",
+    src: "img/birdbox.jpg",
   },
   {
-    src: "img/Netflix-Logo-2006.png",
+    src: "img/enola_holmes.jpeg",
+  },
+  {
+    src: "img/extraction.jpeg"
+  },
+  {
+    src: "img/fatherhood.jpeg"
+  },
+  {
+    src: "img/murder_mystery.jpg"
   },
   // ...
 ];

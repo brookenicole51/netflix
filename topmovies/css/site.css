@@ -1,5 +1,9 @@
 .navbar {
     margin: 0px !important;
+    border-radius:  0 !important;
+}
+.navbar-inverse{
+  background-color: #0d0d0e !important;
 }
 
 .header{
@@ -15,6 +19,7 @@
 body {
   font-family: sans-serif;
   height: 100vh;
+  background-color: #131314 !important;
 
 }
 
