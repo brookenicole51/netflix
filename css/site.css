@@ -228,9 +228,12 @@ h1#h{
   color: white;
   margin-left: 50px;
 }
+#topshows{
+  position: relative;
+}
 h1.tshow{
   position: absolute;
-  top: 80px !important;
+  top:5% !important;
   z-index: 1;
   text-shadow: 1px 1px 10px red;
 }
