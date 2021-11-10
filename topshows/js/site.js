@@ -3,33 +3,39 @@ CanvasJS.addColorSet(
   "brookeSet",
   [
     //colorSet Array
-    "#1E1E1E",
-    "#F04D4D",
-    "#313131",
-    "#D3423D",
-    "#393D42",
-    "#B23028",
-    "#364651",
-    "#99180D",
-    "#42565E",
-    "#65130F",
+    "#510000",
+    "#630000",
+    "#760000",
+    "#890000",
+    "#9c0000",
+    "#b00000",
+    "#c40000",
+    "#d70000",
+    "#eb0000",
+    "#ff0000",
   ]
 );
 
 var options = {
   colorSet: "brookeSet",
 	animationEnabled: true,
-  backgroundColor: "#141414",
+  backgroundColor: "#131314",
 	title: {
-		text: "Top Ten Netflix TV Shows",
-      fontColor: "#dc143c",
-	},
+		text: "TOP TEN NETFLIX TV SHOWS",
+    fontFamily: "impact",
+    fontColor: "#E50914",
+	 },
+  legend: {
+    fontColor: "#D3D3D3",
+    horizontalAlign: "center",
+     },
 	data: [{
 		type: "doughnut",
 		innerRadius: "40%",
 		showInLegend: true,
 		legendText: "{label}",
 		indexLabel: "{label}: #percent%",
+      indexLabelFontColor: "#D3D3D3",
 		dataPoints: [
 			{ label: "Bridgerton", y: 82000000 },
 			{ label: "The Witcher", y: 76000000 },

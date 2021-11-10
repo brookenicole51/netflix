@@ -3,14 +3,19 @@ img {
   margin-bottom: 15px;
 }
 
-.content {
-  background-color: #141414;
+label {
+  color: white;
+}
+
+.navbar-inverse {
+  background-color: #0d0d0e !important;
 }
 
 .navbar {
-    margin-bottom: 0 !important;
+  border-radius: 0px !important;
+  margin-bottom: 0 !important;
 }
 
-label {
-  color: white;
+body {
+  background-color: #131314 !important;
 }
