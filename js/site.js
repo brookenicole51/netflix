@@ -99,7 +99,3 @@ btnRight.addEventListener("click", (e) => {
     updateIndicators(activeIndex);
   }
 });
-
-$("movie0").click(function(){
-  href("../topmovies/index.html")
-});
