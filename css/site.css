@@ -7,6 +7,15 @@ a.navbar-brand{
 padding: 8.335px
 }
 
+.navbar-inverse{
+  background-color: #0d0d0e !important;
+}
+.navbar{
+  border-radius: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+
 ul.nav.navbar-nav{
   flex-direction: row;
 }
@@ -218,6 +227,12 @@ body#home {
 h1#h{
   color: white;
   margin-left: 50px;
+}
+h1.tshow{
+  position: absolute;
+  top: 80px !important;
+  z-index: 1;
+  text-shadow: 1px 1px 10px red;
 }
 
 img#show{
