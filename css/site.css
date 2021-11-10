@@ -228,6 +228,11 @@ h1#h{
   color: white;
   margin-left: 50px;
 }
+h3#h{
+  color: white;
+  margin: 20px;
+
+}
 #topshows{
   position: relative;
 }
@@ -244,4 +249,23 @@ div#carousel{
 
 img#show{
   width: 100% !important;
+}
+
+div#question.row{
+  height:10vh;
+  width: 100vw;
+  border: 5px inset #E50914 !important;
+  background-color: #333;
+}
+
+button#butt1, button#butt2{
+background-color: #e50914; /* Red */
+border: none;
+color: white;
+padding: 10px 24px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin-top: 7px;
 }

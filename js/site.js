@@ -99,3 +99,10 @@ btnRight.addEventListener("click", (e) => {
     updateIndicators(activeIndex);
   }
 });
+
+$("#butt1").click(function(){
+  window.location.href='https://brookenicole51.github.io/netflix/timespent/index.html';
+});
+$("#butt2").click(function(){
+  window.location.href='https://brookenicole51.github.io/netflix/timespent/index.html';
+});
