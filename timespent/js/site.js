@@ -6,11 +6,19 @@ var data = [
   {
     x: ['18+', '18-34', '35-49', '50-64', '65+', 'Average Total'],
     y: [4.2, 2, 3.4, 5.4, 6.6, 2],
-    type: 'bar'
+    type: 'bar',
+
   }
 ];
+var layout = {
+   paper_bgcolor: "rgba(0,0,0,0)",
+   plot_bgcolor: "rgba(0,0,0,0)",
+
+}
+
+
 //output
-Plotly.newPlot('time', data);
+Plotly.newPlot('time', data, layout);
 
 
 
@@ -38,6 +46,7 @@ function showDiv2h() {
 Highcharts.chart('container', {
   chart: {
     type: 'packedbubble',
+    backgroundColor: '#131314',
     height: '100%',
     events: {
       render: function() {
@@ -98,7 +107,7 @@ Highcharts.chart('container', {
         enabled: true,
         format: '{series.name}',
         style: {
-          color: 'black',
+          color: "#D3D3D3",
           textOutline: 'none',
           fontWeight: 'normal'
         }
@@ -110,7 +119,7 @@ Highcharts.chart('container', {
     name: 'Disney Plus',
     data: [{
       name: "Disney Plus",
-      value: 4
+      value: 4,
     }]
   }, {
     name: 'Amazon Prime ',
