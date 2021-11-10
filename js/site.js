@@ -13,22 +13,22 @@ let baseSliderWidth = slider.offsetWidth;
 let activeIndex = 0; // the current page on the slider
 let movies = [
   {
-    src: "/Users/matthewlencioni/Desktop/netflix/topmovies/img/6-underground.jpeg",
+    src: "img/6-underground.jpeg",
   },
   {
-    src: "/Users/matthewlencioni/Desktop/netflix/topmovies/img/birdbox.jpg",
+    src: "img/birdbox.jpg",
   },
   {
-    src: "/Users/matthewlencioni/Desktop/netflix/topmovies/img/enola_holmes.jpeg",
+    src: "img/enola_holmes.jpeg",
   },
   {
-    src: "/Users/matthewlencioni/Desktop/netflix/topmovies/img/extraction.jpeg"
+    src: "img/extraction.jpeg"
   },
   {
-    src: "/Users/matthewlencioni/Desktop/netflix/topmovies/img/fatherhood.jpeg"
+    src: "img/fatherhood.jpeg"
   },
   {
-    src: "/Users/matthewlencioni/Desktop/netflix/topmovies/img/murder_mystery.jpg"
+    src: "img/murder_mystery.jpg"
   },
   // ...
 ];
