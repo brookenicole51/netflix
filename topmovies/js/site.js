@@ -23,6 +23,18 @@ const changeSlide=(direction)=> {
       activeSlideIndex = 0;
     }
   }
+  else if (direction === 'down'){
+    activeSlideIndex--;
+      if(activeSlideIndex < 0){
+        activeSlideIndex = slideslength - 1;
+      }
 
-  sliderRight.style.transform=`translateY(-${activeSlideIndex* sliderHeight}px)`;
+  }
+
+  slideRight.style.transform=`translateY(-${
+    activeSlideIndex * sliderHeight
+  }px)`;
+  slideleft.style.transform=`translateY(${
+    activeSlideIndex * sliderHeight
+  }px)`;
 }

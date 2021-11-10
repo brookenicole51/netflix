@@ -1,8 +1,17 @@
-img {
-  width: 50px;
-  margin-bottom: 15px;
+.navbar {
+    margin: 0px !important;
+}
 
-
+.header{
+  position: sticky;
+  margin-left: 0px;
+  color: #dc143c;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 body {
   font-family: sans-serif;
   height: 100vh;
@@ -22,6 +31,7 @@ body {
   position: absolute;
   top:0;
   left: 0;
+  transition: transform .5s ease-in-out;
 }
 .left-slide > div {
   height: 100%;
@@ -30,7 +40,8 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #white;
+  color: #ffffff;
+
 
 }
 
@@ -41,6 +52,15 @@ body {
 
 }
 
+.left-slide p {
+  font-size: 15px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 5px;
+  margin-top: -10px;
+
+}
+
 .right-slide{
   height: 100%;
   width: 100%;
@@ -48,6 +68,7 @@ body {
   top:0;
   left: 35%;
   width: 65%;
+  transition: transform .5s ease-in-out;
 }
 .right-slide > div{
   background-repeat: no-repeat;
@@ -65,16 +86,16 @@ body {
 
 }
 
-.slider-container .action-buttons .db {
+.slider-container .action-buttons .down-button {
   transform: translateX(-100%);
   border-top-left-radius: 5px;
-  border-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
-.slider-container .action-buttons .ub {
+.slider-container .action-buttons .up-button {
   transform: translateY(-100%);
   border-top-left-radius: 5px;
-  border-border-bottom-left-radius: 5px;
+  border-bottom-left-radius: 5px;
 }
 
 button {
