@@ -14,7 +14,7 @@ var data = [
     y: [4.2, 2, 3.4, 5.4, 6.6, 2],
     type: 'bar',
     marker: {
-        color: '#141414'
+     color: '#141414'
       }
   }
 ];
