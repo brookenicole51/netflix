@@ -31,8 +31,9 @@
     </ul>
   </div>
 </nav>
-
-
+<div class="text-center">
+<canvas id="clock"></canvas>
+	</div>
 <div class="text-center" style="background-color:#141414;">
 <h1 style="color:AliceBlue;">Time Spent Watching Netflix a Day by Age (Hours)</h1>
 	<div id='time'></div>
@@ -41,7 +42,7 @@
 <div class="col" style="background-color:#141414;">
 <h1 style="color:AliceBlue;">How long does the average Netflix user stream a day?</h1>
 <input type="button" name="answer" value="How Long?" onclick="showDiv()" />
-	<div id="hours"  style="display:none;" class="hrs" ><h1 style="color:AliceBlue;"> 2 Hours!</h1></div>
+	<div id="hours"  style="display:block;" class="hrs" ><h1 style="color:AliceBlue;"> 2 Hours!</h1></div>
 	<input type="button" name="hide" value="Hide" onclick="showDivh()" />
 		<div id="hours"  style="display:none;" class="hrs" ><h1 style="color:AliceBlue;"> 2 Hours!</h1></div>
 </div>
@@ -57,7 +58,7 @@
 			<div class="col" style="background-color:#141414;">
 	<h1 style="color:AliceBlue;">How many hours of Netflix were streamed during coronavirus lockdown?</h1>
 	<input type="button" name="answer" value="How Many?" onclick="showDiv2()" />
-		<div id="covid" style="display:none;" class="hrs c" ><h1 style="color:AliceBlue;">204 million hours!</h1> </div>
+		<div id="covid" style="display:block;" class="hrs c" ><h1 style="color:AliceBlue;">204 million hours!</h1> </div>
 			<input type="button" name="hide" value="Hide" onclick="showDiv2h()" />
 				<div id="hours"  style="display:none;" class="hrs c" ><h1 style="color:AliceBlue;">204 million hours!</h1></div>
 				</div>
