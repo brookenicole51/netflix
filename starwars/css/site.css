@@ -3,6 +3,15 @@ img {
   width: 50px;
   margin-bottom: 15px;
 }
+.navbar-inverse {
+  background-color: #0d0d0e !important;
+}
+
+.navbar {
+  border-radius: 0px !important;
+  margin-bottom: 0 !important;
+}
+
 
 *,
 *::before,
