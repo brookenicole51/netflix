@@ -256,6 +256,7 @@ div#question.row{
   width: 100vw;
   border: 5px inset #E50914 !important;
   background-color: #333;
+  overflow-x: visible;
 }
 
 button#butt1, button#butt2{
