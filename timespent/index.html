@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Netflix Stats</title>
+	<title>Time Spent</title>
 	<link rel="stylesheet" type="text/css" href="css/site.css">
 	<meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,6 +13,7 @@
 	 <script src='https://cdn.plot.ly/plotly-2.4.2.min.js'></script>
 	 <script src="https://code.highcharts.com/highcharts.js"></script>
 	 <script src="https://code.highcharts.com/highcharts-more.js"></script>
+	 <script src="https://unpkg.com/scrollreveal"></script>
 	<script src="js/site.js" defer></script>
 </head>
 <body style="background-color:Crimson;">
@@ -26,12 +27,14 @@
       <li class="active"><a href="https://brookenicole51.github.io/netflix/index.html">Home</a></li>
       <li><a href="https://brookenicole51.github.io/netflix/topmovies/index.html">Top Movies</a></li>
       <li><a href="https://brookenicole51.github.io/netflix/topshows/index.html">Top Shows</a></li>
-      <li><a href="https://brookenicole51.github.io/netflix/timespent/index.html">Time Spent</a></li>
+			<li><a href="https://brookenicole51.github.io/netflix/timespent/index.html">Time Spent</a></li>
+      <li><a href="https://brookenicole51.github.io/netflix/starwars/index.html">Star Wars</a></li>
     </ul>
   </div>
 </nav>
-
-
+<div class="text-center">
+<canvas id="clock"></canvas>
+	</div>
 <div class="text-center" style="background-color:#141414;">
 <h1 style="color:AliceBlue;">Time Spent Watching Netflix a Day by Age (Hours)</h1>
 	<div id='time'></div>
@@ -40,7 +43,7 @@
 <div class="col" style="background-color:#141414;">
 <h1 style="color:AliceBlue;">How long does the average Netflix user stream a day?</h1>
 <input type="button" name="answer" value="How Long?" onclick="showDiv()" />
-	<div id="hours"  style="display:none;" class="hrs" ><h1 style="color:AliceBlue;"> 2 Hours!</h1></div>
+	<div id="hours"  style="display:block;" class="hrs" ><h1 style="color:AliceBlue;"> 2 Hours!</h1></div>
 	<input type="button" name="hide" value="Hide" onclick="showDivh()" />
 		<div id="hours"  style="display:none;" class="hrs" ><h1 style="color:AliceBlue;"> 2 Hours!</h1></div>
 </div>
@@ -56,7 +59,7 @@
 			<div class="col" style="background-color:#141414;">
 	<h1 style="color:AliceBlue;">How many hours of Netflix were streamed during coronavirus lockdown?</h1>
 	<input type="button" name="answer" value="How Many?" onclick="showDiv2()" />
-		<div id="covid" style="display:none;" class="hrs c" ><h1 style="color:AliceBlue;">204 million hours!</h1> </div>
+		<div id="covid" style="display:block;" class="hrs c" ><h1 style="color:AliceBlue;">204 million hours!</h1> </div>
 			<input type="button" name="hide" value="Hide" onclick="showDiv2h()" />
 				<div id="hours"  style="display:none;" class="hrs c" ><h1 style="color:AliceBlue;">204 million hours!</h1></div>
 				</div>

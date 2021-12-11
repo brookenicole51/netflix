@@ -1,8 +1,11 @@
+
 img {
   width: 50px;
   margin-bottom: 15px;
 }
-
+#time {
+  background-color: Crimson !important;
+}
 .hrs {
 font-family: Helvetica, Arial, sans-serif;
 font-size: 60px;
@@ -40,6 +43,11 @@ body {
 }
 
 
+.navbar-inverse {
+  background-color: #0d0d0e !important;
+}
+
 .navbar {
-    margin-bottom: 0 !important;
+  border-radius: 0px !important;
+  margin-bottom: 0 !important;
 }
