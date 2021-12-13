@@ -20,11 +20,11 @@ var options = {
   colorSet: "brookeSet",
 	animationEnabled: true,
   backgroundColor: "#131314",
-	title: {
-		text: "TOP TEN NETFLIX TV SHOWS",
-    fontFamily: "impact",
-    fontColor: "#E50914",
-	 },
+//*	title: {
+//		text: "TOP TEN NETFLIX TV SHOWS",
+//    fontFamily: "impact",
+//    fontColor: "#E50914",
+//	 },
   legend: {
     fontColor: "#D3D3D3",
     horizontalAlign: "center",
