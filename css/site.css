@@ -279,3 +279,7 @@ display: inline-block;
 font-size: 16px;
 margin-top: 7px;
 }
+
+a#time{
+  color: white;
+}
