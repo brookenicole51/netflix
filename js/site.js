@@ -151,7 +151,7 @@ $("#final").click(function(){
   if (num < avg) {
     let posDif = ((avg - num ) / num) * 100
   $("#output").append("On average you spend " + posDif + "% less time on Netflix than most people.");
-} else if (num > avg){
+  } else if (num > avg){
     let negDif = ((num - avg) / num) * 100
   $("#output").append("On average you spend " + negDif + "% more time on Netflix than most people.");
   } else {
