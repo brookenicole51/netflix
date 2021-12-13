@@ -31,7 +31,7 @@ body {
 @import url('https://fonts.googleapis.com/css?family=Roboto:700,900');
 
 body {
-  background: radial-gradient(#0d0d0e, #0d0d0e);
+  background: radial-gradient(#131314, #131314);
   overflow: scroll;
 }
 
@@ -40,6 +40,7 @@ body {
   font-family: 'Roboto';
   font-size: 12vmin;
   font-weight: 700;
+  background-color: #131314 !important;
   animation: netflix_style 3.5s infinite;
   outline: none;
   white-space: nowrap;
@@ -76,4 +77,109 @@ body {
   100% {
     opacity: 0;
   }
+}
+
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+body {
+  background: ;
+  background-size: #131314 cover;
+  color: #131314;
+  font-family: 'Roboto';
+}
+
+.img-responsive {
+  width: 30vw;
+  max-width:200px;
+}
+
+h1 {
+  font-family: 'Roboto';
+  font-size: 10rem;
+  color: black;
+}
+
+.alert {
+  margin-top: 10px;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background: #131314);
+  min-height: 100vh;
+  overflow:hidden;
+}
+
+.search {
+  flex: 1;
+  text-align: center;
+}
+
+button {
+  background-color: black;
+  border: 0;
+  color: white;
+  font-size: 2em;
+  padding: 10px;
+  margin-left: 0;
+  font-family: 'Lobster';
+}
+
+input[type=text] {
+  background: rgba(255, 255, 255, 0.5);
+  outline: none;
+  border: 3px solid black;
+  color: black;
+  font-family: 'Lato';
+  font-size: 2em;
+  padding: 8px;
+  margin-right: 0;
+  text-align:center;
+}
+
+
+::-webkit-input-placeholder {
+  color: black;
+}
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: black;
+}
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: black;
+}
+
+:-ms-input-placeholder {
+  color: black;
+}
+
+#poster {
+  margin-top: 20px
+}
+
+#poster p {
+  font-size: 2em;
+  color: grey;
+}
+
+input:focus {
+  outline: none;
+}
+
+.alert {
+  background-color: rgba(0, 0, 0, 0.95);
+  display: inline;
+  padding: 10px;
+  color: white;
+}
+
+img {
+    width: 50px;
+    margin-bottom: 15px;
+    margin-left: 30%;
 }
