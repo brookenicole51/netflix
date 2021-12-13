@@ -102,12 +102,40 @@
 		<div class="row" id="timespent">
 			<h1 id="h">Time Spent</h1>
 		</div>
-			<div class="row" id="question">
+			<div class="col" id="question">
 				<h3 id="h">Do you spend way too much time on Netflix?</h3>
-					<div class="col">
-						<button type="button" id="butt1">Yes</button>
-						<button type="button" id="butt2">No</button>
+				<div id="output">
+
+				</div>
+				<br>
+				<div id="questions">
+					<div id="question1">
+						<h3 id="q1">How many hours do you stream show/movies a day?</h3>
 					</div>
+
+					<div>
+						<form action="/lab.js">
+							<label for="timeSpent">I watch</label>
+			  			<input type="number" id="timeSpent" name="timeSpent" min="0" max="24">
+							<label for="timeSpent">hours</label>
+						</form>
+					</div>
+					<br>
+					<div id="question2">
+						<h3 id="q2">Do you think you watch more than the average user?</h3>
+						<button type="button" name="button" id="yep">Without a doubt</button>
+						<button type="button" name="button" id="yes">Yes</button>
+						<button type="button" name="button" id="no">No</button>
+						<button type="button" name="button" id="nope">I don't stream shows</button>
+					</div>
+
+					<br>
+					<div id="finalbutton">
+						<h3 id="r">Results</h3>
+						<button type="button" name="button" id="final">How do I compare?</button>
+					</div>
+
+				</div>
 			</div>
 
 	</main>
